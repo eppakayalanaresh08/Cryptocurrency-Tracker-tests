@@ -1,0 +1,50 @@
+.card-CryptocurrencyTracker {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+.CryptocurrencyTracker-heading {
+  color: #00e7ff;
+  font-size: 35px;
+}
+
+.list-border-Cryptocurrency {
+  border: 3px solid #00e7ff;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  padding: 0;
+  width: 80%;
+}
+.coin-type-container {
+  background-color: #092e33;
+  display: flex;
+  justify-content: space-between;
+  padding-left: 30px;
+  padding-right: 30px;
+  width: 100%;
+}
+
+.coin-type {
+  color: #ffffff;
+  font-family: 'Roboto';
+}
+
+.coin-value-container {
+  display: flex;
+  justify-content: space-around;
+  width: 30%;
+}
+
+.usd-value {
+  color: #ffffff;
+  font-family: 'Roboto';
+}
+
+.euro-value {
+  color: #ffffff;
+  font-family: 'Roboto';
+}

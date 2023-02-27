@@ -1,0 +1,39 @@
+.list_item {
+  list-style-type: none;
+  display: flex;
+  justify-content: space-between;
+  padding-left: 30px;
+  padding-right: 30px;
+}
+
+.container-image {
+  display: flex;
+  align-items: center;
+  width: 20%;
+}
+
+.currency-Logo {
+  width: 30px;
+}
+
+.currency-name {
+  font-family: 'Roboto';
+  color: #ffffff;
+  margin-left: 15px;
+}
+
+.value-container {
+  display: flex;
+  justify-content: space-around;
+  width: 30%;
+}
+
+.usd-value {
+  font-family: 'Roboto';
+  color: #ffffff;
+}
+
+.euro-value {
+  font-family: 'Roboto';
+  color: #ffffff;
+}
